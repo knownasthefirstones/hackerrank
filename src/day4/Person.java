@@ -20,7 +20,7 @@ public class Person {
         String result = "";
         if (this.age < 13) {
             result = "You are young.";
-        } else if (this.age >= 13 && this.age < 18) {
+        } else if (this.age < 18) {
             result = "You are a teenager.";
         } else {
             result = "You are old.";
