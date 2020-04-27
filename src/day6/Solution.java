@@ -8,8 +8,13 @@ public class Solution {
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner scan = new Scanner(System.in);
-        String inputString = scan.next();      // input string
-        printResult(inputString);
+        int T = scan.nextInt();
+        for (int i = 0; i < T; i++) {
+            String inputString = scan.next();      // input string
+            if (inputString.length() > 1) {
+                printResult(inputString);
+            }
+        }
         scan.close();
     }
 
