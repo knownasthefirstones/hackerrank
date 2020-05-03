@@ -1,6 +1,5 @@
-package day4;
+package day4classvsinstance;
 
-import java.io.*;
 import java.util.*;
 
 public class Person {

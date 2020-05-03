@@ -1,6 +1,5 @@
-package day6;
+package day6letsreview;
 
-import java.io.*;
 import java.util.*;
 
 public class Solution {

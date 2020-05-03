@@ -1,8 +1,7 @@
-package day8;
+package day8dictionariesandmaps;
 
 //Complete this code or write your own from scratch
 import java.util.*;
-import java.io.*;
 
 class Solution{
     public static void main(String []argh){
