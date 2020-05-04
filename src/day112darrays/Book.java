@@ -1,4 +1,3 @@
-
 package day112darrays;
 
 public class Book {
@@ -23,29 +22,29 @@ public class Book {
         return this.title;
     }
     
-     public int getPageCount() {
+    public int getPageCount() {
         return this.pageCount;
     }
-     
-      public int getISBN() {
+
+    public int getISBN() {
           return this.ISBN;
     }
       
-      public boolean getIsCheckedOut() {
+    public boolean getIsCheckedOut() {
         return this.isCheckedOut;
     }
       
-       public int getDayCheckedOut() {
+    public int getDayCheckedOut() {
         return this.dayCheckedOut;
     }
       
-       // SETTERS
-       public void setIsCheckedOut(boolean newIsCheckedOut, int currentDayCheckedOut) {
-           this.isCheckedOut = newIsCheckedOut;
-           setDayCheckedOut(currentDayCheckedOut);
-       }
+    // SETTERS
+    public void setIsCheckedOut(boolean newIsCheckedOut, int currentDayCheckedOut) {
+        this.isCheckedOut = newIsCheckedOut;
+        setDayCheckedOut(currentDayCheckedOut);
+    }
        
-       private void setDayCheckedOut(int day) {
+    private void setDayCheckedOut(int day) {
            this.dayCheckedOut = day;
        }
       
