@@ -18,11 +18,16 @@ class Difference {
 
     // находит отличия в введенных из командной строки данных
     public void computeDifference() {
-        int max = Arrays.stream(elements).max().getAsInt();
-        int min = Arrays.stream(elements).min().getAsInt();
+        int max = Arrays.stream(elements).max().getAsInt(); // получаем максимальное значение в массиве
+        int min = Arrays.stream(elements).min().getAsInt(); // получаем минимальное значение в массиве
         maximumDifference = max - min ;
     }
 
+    /* Math.abs - модуль числа (абсолютное значение аргумента)
+    public void computeDifference(){
+        Arrays.sort(elements);
+        this.maximumDifference = Math.abs(elements[elements.length - 1] - elements[0]);
+    }*/
 
 } // End of Difference class
 
