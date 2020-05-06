@@ -1,4 +1,4 @@
-package day112darrays;
+package day11arrays;
 
 import java.util.HashMap;
 import java.util.Map;
